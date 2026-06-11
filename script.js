@@ -2,13 +2,14 @@ document.getElementById("botao").addEventListener("click", () => {
   const msg = document.getElementById("mensagem");
   const botao = document.getElementById("botao");
 
+  // mostra a mensagem
   msg.style.display = "block";
-  msg.style.opacity = "0";
-  msg.style.transition = "opacity 1s";
 
+  // força o navegador a "entender" o display antes da animação
   setTimeout(() => {
-    msg.style.opacity = "1";
+    msg.classList.add("mostrar");
   }, 50);
 
+  // esconde o botão
   botao.style.display = "none";
 });
