@@ -85,3 +85,36 @@ p{
   color:#888;
   font-style:italic;
 }
+@media (max-width: 600px) {
+
+  .container{
+    padding: 30px 15px;
+  }
+
+  h1{
+    font-size: 22px;
+  }
+
+  h2{
+    font-size: 28px;
+  }
+
+  p{
+    font-size: 16px;
+  }
+
+  .keroppi{
+    width: 140px;
+  }
+
+  .envelope{
+    width: 130px;
+    height: 100px;
+  }
+
+  .envelope::before{
+    border-left: 65px solid transparent;
+    border-right: 65px solid transparent;
+    border-bottom: 50px solid #ff4d88;
+  }
+}
