@@ -1,15 +1,19 @@
-document.getElementById("botao").addEventListener("click", () => {
-  const msg = document.getElementById("mensagem");
-  const botao = document.getElementById("botao");
+document.getElementById("envelope").addEventListener("click", () => {
+  const envelope = document.getElementById("envelope");
+  const mensagem = document.getElementById("mensagem");
 
-  // mostra a mensagem
-  msg.style.display = "block";
+  // anima envelope
+  envelope.classList.add("abrir");
 
-  // força o navegador a "entender" o display antes da animação
   setTimeout(() => {
-    msg.classList.add("mostrar");
-  }, 50);
+    envelope.style.display = "none";
 
-  // esconde o botão
-  botao.style.display = "none";
+    // mostra carta
+    mensagem.style.display = "block";
+
+    setTimeout(() => {
+      mensagem.classList.add("mostrar");
+    }, 50);
+
+  }, 600);
 });
