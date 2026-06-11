@@ -41,44 +41,26 @@ button{
   cursor:pointer;
   font-size:18px;
   margin-top:20px;
-  transition:0.3s;
+  transition:transform 0.3s ease;
 }
 
 button:hover{
   transform:scale(1.05);
 }
 
-.escondido{
-  display:none;
-}
-
-.aparecer{
-  display:block;
-  margin-top:40px;
-}
-
+/* 💖 mensagem escondida com animação */
 #mensagem{
   display:none;
   margin-top:40px;
-  animation:aparecer 1s ease;
+  opacity:0;
+  transform:translateY(20px);
+  transition: all 1s ease;
 }
 
-
-@keyframes aparecer{
-  from{
-    opacity:0;
-    transform:translateY(20px);
-  }
-
-  to{
-    opacity:1;
-    transform:translateY(0);
-  }
-}
-
-.keroppi-final{
-  width:100px;
-  margin-top:30px;
+/* quando aparecer */
+#mensagem.mostrar{
+  opacity:1;
+  transform:translateY(0);
 }
 
 .rodape{
