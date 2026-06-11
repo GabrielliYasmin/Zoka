@@ -1,0 +1,59 @@
+index.html
+<div class="container">
+
+  <h1>Para o Zoka que mora no meu ❤️</h1>
+
+  <img
+    class="keroppi"
+    src="https://static.wikia.nocookie.net/sanrio-hello-kitty/images/d/d0/Keroppi.png/revision/latest?cb=20130427202115"
+    alt="Keroppi"
+  >
+
+  <p>Oi meu amor,</p>
+
+<p>
+Sabe que sou aquela romântica assumida que faria
+uma carta gigante pra ti.
+</p>
+
+<p>
+Mas desta vez quis fazer isso de um jeito diferente.
+</p>
+
+<p>
+Então, se você chegou até aqui,
+só queria que soubesse uma coisa:
+</p>
+
+  <button id="botao">
+    ❤️ Clique aqui ❤️
+  </button>
+
+  <div id="mensagem" class="escondido">
+
+    <h2>Eu amo você de todo o meu coração ❤️</h2>
+
+    <p>
+      Obrigada por fazer meus dias mais felizes. ❤️
+    </p>
+    <p>
+      Feliz dia dos namorados!❤️❤️
+
+    <p>
+      Com amor,
+      Gabi🌸
+    </p>
+
+  </div>
+  
+</div>
+
+<img
+  class="keroppi-final"
+  src="https://static.wikia.nocookie.net/sanrio-hello-kitty/images/d/d0/Keroppi.png/revision/latest?cb=20130427202115"
+  alt="Keroppi"
+/>
+
+<p class="rodape">
+  🐸 Sua namorada arassa na programação.
+</p>
