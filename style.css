@@ -58,9 +58,11 @@ button:hover{
 }
 
 #mensagem{
+  display:none;
   margin-top:40px;
   animation:aparecer 1s ease;
 }
+
 
 @keyframes aparecer{
   from{
