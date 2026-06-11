@@ -1,9 +1,14 @@
-document
-  .getElementById("botao")
-  .addEventListener("click", () => {
+document.getElementById("botao").addEventListener("click", () => {
+  const msg = document.getElementById("mensagem");
+  const botao = document.getElementById("botao");
 
-    document.getElementById("mensagem").style.display = "block";
+  msg.style.display = "block";
+  msg.style.opacity = "0";
+  msg.style.transition = "opacity 1s";
 
-    document.getElementById("botao").style.display = "none";
+  setTimeout(() => {
+    msg.style.opacity = "1";
+  }, 50);
 
+  botao.style.display = "none";
 });
